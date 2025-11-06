@@ -1,22 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 
-h1 {
-     font-family: "Roboto", sans-serif;
-     color: blue;
-     text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border na largura e altura totais */
 }
-/*estilo para paragrafo*/
-p{
-    font-size: 16px; /*tamanho da fonte*/
-    line-height: 1.5; /* espaço entre linhas*/
-    text-align: center; /*alinhamento do texto*/
+
+#card {
+    background-color: #ffffff; /* Cor de fundo branca */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 40px; /* Espaçamento interno */
+    max-width: 350px; /* Largura máxima do card */
+    text-align: center; /* Centraliza o texto */
+}
+
+body {
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6ecff 100%); /* Gradiente de fundo */
+    display: flex; /* Define um contêiner flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Altura total da viewport */
+}
+
+
+/* Estilo para o título */
+h1 {
+    font-family: 'Momo Trust Display', cursive;
+    color: blue;
+    text-align: center;
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 16px; /* Tamanho da fonte */ 
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: center; /* Alinhamento do texto */
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
-    display:block;
-    margin: 20px auto;
-    border-radius:  50%;
-    width: 150px;
-    height: 150px;
+/* Estilo para as imagens */
+img {
+    display: block; /* Faz a imagem ocupar uma linha inteira */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    border-radius: 50%; /* Deixa a imagem circular */
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+}
+
+.foto-legenda {
+    font-size: 12px;
+    font-style: italic;
 }

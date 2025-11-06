@@ -46,6 +46,8 @@ img {
     border-radius: 50%; /* Deixa a imagem circular */
     width: 150px; /* Largura da imagem */
     height: 150px; /* Altura da imagem */
+    object-fit: cover;
+    object-position: center;
 }
 
 .foto-legenda {

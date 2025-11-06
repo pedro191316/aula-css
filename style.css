@@ -49,6 +49,10 @@ img {
     object-fit: cover;
     object-position: center;
 }
+img:hover {
+    transform: scale(1.05);
+    transition: transforme 0.3s ease; /* animação suave*/
+}
 
 .foto-legenda {
     font-size: 12px;

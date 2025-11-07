@@ -7,7 +7,7 @@
 }
 
 #card {
-    background-color: #ffffff; /* Cor de fundo branca */
+    background-color: hsl(0, 45%, 98%); /* Cor de fundo branca */
     border-radius: 20px; /* Bordas arredondadas */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 40px; /* Espaçamento interno */
@@ -27,7 +27,7 @@ body {
 /* Estilo para o título */
 h1 {
     font-family: 'Momo Trust Display', cursive;
-    color: blue;
+    color: rgb(7, 86, 18);
     text-align: center;
 }
 
@@ -58,3 +58,4 @@ img:hover {
     font-size: 12px;
     font-style: italic;
 }
+.container
